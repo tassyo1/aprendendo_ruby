@@ -12,4 +12,66 @@ Encoding
 
 Em Ruby existem 3 tipos numéricos básicos: Fixnum, Bignum e Float 
 
+ranges
+(1..6), (a..z)
+
+Símbolos
+:simbolo - São imutáveis. São compartilhados.Isto é, qualquer lugar da aplicação que contenha, por exemplo, :writable, se referem a um mesmo objeto do tipo Symbol
+
+Operadores
+Os operadores booleanos são: ==, >, <, >= e <=. Expressões booleanas podem ainda ser combinadas com os operadores && (and) e || (or).
+
+Estrutura de Controle
+- If
+if (variavel)
+elsif
+end
+
+- Switch Case
+case ano
+  when 1895..2005
+    "Não lembro... :)"
+  when 2006
+    "Alemanha"
+  when 2010
+    "África do Sul"
+  when 2014
+    "Brasil"
+  end
+
+For
+for i in (1..3)
+    x = i
+end
+
+Operador =~
+/paulo/ =~ "são paulo" O operador =~ faz a função de match e retorna a posição da String onde o padrão foi encontrado, ou nil caso a String não bata com a expressão regular
+
+Operador ||=
+O operador "||=" é considerado uma forma elegante de fazer um if. Verifique se uma variável já foi preenchida, caso não estiver, vamos atribuir um valor a ela.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rascunhos
+for
+50.times do |i|
+  Restaurante.create!(
+    nome: "Restaurante #{i}",
+    endereco: "Rua #{i} de setembro",
+    especialidade: especialidades.sample
+  )
+end
+
+
+
 <%= link_to controller_name.slice(0,1).capitalize + controller_name.slice(1..-1), controller: controller_name %>
