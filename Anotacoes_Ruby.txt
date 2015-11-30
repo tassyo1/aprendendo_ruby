@@ -1,0 +1,15 @@
+Anotações Ruby 
+
+O operador << é utilizado para a operação append de Strings, ou seja, para a concatenação de 
+Strings em uma mesma instância. Já o operador + também concatena Strings mas não na mesma instância,
+ isso quer dizer que o + gera novas Strings.
+
+Bang!
+Mas e se quisermos que a mudança realizada pelo capitalize seja definitiva? Para isso acrescentamos o caracter ! no final do método. 
+
+Encoding
+#coding:utf-8
+
+Em Ruby existem 3 tipos numéricos básicos: Fixnum, Bignum e Float 
+
+<%= link_to controller_name.slice(0,1).capitalize + controller_name.slice(1..-1), controller: controller_name %>
