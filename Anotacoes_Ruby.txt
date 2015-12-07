@@ -50,17 +50,29 @@ Operador =~
 Operador ||=
 O operador "||=" é considerado uma forma elegante de fazer um if. Verifique se uma variável já foi preenchida, caso não estiver, vamos atribuir um valor a ela.
 
+Método Send
+Toda classe possui o método send(). Ele é usado passando como parâmetro um método em forma de símbolo.
+ex. classe carro, método andar(). objCarro.send(:andar)
 
+Atributos
+Sempre são privados e começam com @
 
+Initialize
+Método Construor
 
+Get/Sets
+ attr_accessor :nota, para get/set. Ou attr_reader :nota apenas para get.
 
+Multiplos parâmetros( array)
+def compra(*produtos) Onde produtos é um array
 
+Sintaxes de definição de Hashes
+meuhash= {para: escola, em: Time.now}
+meuhash = {:para => escola, :em => Time.now}
+Quando um método recebe um hash como parâmetro --> restaurante_um.fechar_conta valor: 50, nota: 9, comentario: 'Gostei!'
 
-
-
-
-
-
+Blocos
+Olhar arquivo bloco.rb
 
 Rascunhos
 for

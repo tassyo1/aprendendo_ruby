@@ -1,0 +1,1 @@
+puts Time.now.day.to_s+"/"+Time.now.month.to_s+"/"+Time.now.year.to_s
