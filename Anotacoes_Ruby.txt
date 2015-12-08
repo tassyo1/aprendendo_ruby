@@ -72,7 +72,9 @@ meuhash = {:para => escola, :em => Time.now}
 Quando um método recebe um hash como parâmetro --> restaurante_um.fechar_conta valor: 50, nota: 9, comentario: 'Gostei!'
 
 Blocos
-Olhar arquivo bloco.rb
+Olhar arquivo bloco.rb, yield.rb e sort_block.rb
+
+
 
 Rascunhos
 for
