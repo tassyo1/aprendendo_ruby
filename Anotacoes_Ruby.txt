@@ -76,6 +76,14 @@ Olhar arquivo bloco.rb, yield.rb e sort_block.rb
 
 
 
+
+======= RAILS ========
+rake -T = ver todas as tarefas do rake
+rake test:units = roda apenas os testes de modelo
+rake test:functionals = roda apenas os testes de controler
+
+
+
 Rascunhos
 for
 50.times do |i|
