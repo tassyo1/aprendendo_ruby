@@ -1,3 +1,4 @@
+#18.4 
 class Relatorio
 @@instance = Relatorio.new
 
