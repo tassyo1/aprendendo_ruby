@@ -74,6 +74,24 @@ Quando um método recebe um hash como parâmetro --> restaurante_um.fechar_conta
 Blocos
 Olhar arquivo bloco.rb, yield.rb e sort_block.rb
 
+==
+Módulos
+Ex:
+module MeuModulo
+  def MeuModulo.metodo_classe()
+    puts "Imprima algo
+  end
+
+  CONSTANTE = "Texto da minha constante"
+end
+
+Acessando o módulo...
+require "./meumodulo.rb" obs: nome do arquivo
+
+MeuModulo.metodo_classe()
+puts MeuModulo::CONSTANTE
+
+==
 
 
 
